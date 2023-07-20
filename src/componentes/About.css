@@ -1,4 +1,4 @@
-/*.manchaRosa {
+.manchaRosa {
     display: none;
   }
   @media (min-width: 575.98px) {
@@ -16,9 +16,9 @@
       width: 20rem;
       margin-left: -100px;
     }
-  } */
+  } 
 /*----------------------------------------*/
-  /*.pajaroAzul {
+  .pajaroAzul {
     width: 3rem;
       
   }
@@ -43,7 +43,7 @@
 
 /*-------------------------------------------------*/
 
-/*
+
 .titulo {
     font-size: 3rem;
     color: #e0a387;
@@ -75,16 +75,27 @@
 /*----------------------------------------*/
 
 .titulo{
-    margin-top: -3rem;
+    margin-top: -5rem;
 }
 
 p{
-    font-size: 3rem;
+    font-size: 2.3rem;
     color: #a2b2c4;
     display: flex;
     text-align: center;  
     margin: 0% 15% 0% 22%;
     line-height: 40px;
-    margin-bottom: 50px;
+    margin-bottom: 5rem;
 }
 
+.pajaroAzul {
+  width: 11rem;
+  margin-left: -150px;
+  margin-top: 35rem;
+}
+
+.manchaRosa {
+  width: 20rem;
+  margin-left: -100px;
+  margin-top: 30rem;
+}

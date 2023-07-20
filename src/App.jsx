@@ -30,11 +30,7 @@ function App() {
         <Work/>
         <DibujoYTitulo/>
         <Redes/>
-        
-
         <Formulario/>
-        <Redes/>
-        
         <Footer/>
        
         

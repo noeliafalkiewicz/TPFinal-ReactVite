@@ -13,7 +13,7 @@ function Formulario (){
          <div className='formulario shadow-sm p-1 mb-3 bg-body-tertiary rounded col-md-5'>
             <form className='contenidoformulario' action="https://formspree.io/f/mdorkgov"
   method="POST">
-                <div className='form-group'>
+                <div className='form-group'id='form'>
                     <label></label>
                     <input className='border border-primary-subtle rounded-3' type='text' placeholder='Nombre/Compañia' name='nombre'/>
                 </div>
@@ -41,3 +41,4 @@ function Formulario (){
  export default Formulario
 
 
+ 

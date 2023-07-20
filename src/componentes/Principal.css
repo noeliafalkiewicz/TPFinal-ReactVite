@@ -92,6 +92,7 @@
 .uno{
     margin: 2% 3% 6% 3%;
     height: 39rem;
+    margin-top: 3rem;
     
 }
 
@@ -105,6 +106,7 @@
 }
 .contenedorSecundario{
     margin-left: -3rem;
+    margin-top: 10rem;
     
 }
 
@@ -129,5 +131,6 @@
     height: 25rem;
     width: 25rem;
     padding-right: 0.5rem;
+    margin-top: 12rem;
     
 }

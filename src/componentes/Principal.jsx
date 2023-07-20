@@ -17,8 +17,8 @@ function Principal () {
                                Soy Nhoelya
                           </h1>
                           <h3 className='noe'>Desarrolladora Web
-                          </h3>
-                          <button class="btn btn-warning"><strong>Contratar</strong></button>
+                          </h3><a></a>
+                          <button class="btn btn-warning" id='form'  ><strong>Contratar</strong></button>
                       </div>
                       <img src={mancha} className='manchaGrande' alt="mancha"/>   
                  </div>
