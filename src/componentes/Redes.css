@@ -7,13 +7,17 @@
 }
 .datos{
     display: flex;
+    flex-wrap: nowrap;
     margin-left: 0rem;
     margin-top: 0.6rem;
+    width: 40rem;
 }
 
 .log{
-    width: 2.7rem;
-    height: 2.7rem;
+    width: 2.4rem;
+    height: 2.4rem;
+    margin-left: -2rem;
+    
 }
 
 .log:hover{
@@ -26,6 +30,7 @@
     margin-left:1rem;
     margin-top: 0.5rem;
     color: #aabed5;
+    width: 20rem;
     
 }
 
@@ -37,3 +42,15 @@
 .contenedorRedesyFormulario{
     display: flex;
 }
+
+a{
+    text-decoration-line: none;
+    display: inline;
+    
+}
+
+span{
+    display: flex;
+    
+}
+

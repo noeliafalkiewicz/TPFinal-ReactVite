@@ -30,7 +30,7 @@ function Header () {
                     </li>
                     <li class="nav-item">
                        <a class="link-danger link-offset-2 link-offset-3-hover link-underline
-                       link-underline-opacity-0 link-underline-opacity-50-hover link-opacity-50-hover" href='#form'>Contacto</a>
+                       link-underline-opacity-0 link-underline-opacity-50-hover link-opacity-50-hover" href='#contacto'>Contacto</a>
                     </li>
                </ul>
             </nav>
