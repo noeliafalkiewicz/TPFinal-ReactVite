@@ -8,7 +8,7 @@ function Principal () {
 
     return(
         
-            <div class="uno border border-white alert      alert-primary shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+            <div class="uno border border-white alert alert-primary shadow-lg p-3 mb-5 bg-body-tertiary rounded">
                 
                  <div className='contenedorPrincipal'>
                      <div className='contenedorSecundario'>

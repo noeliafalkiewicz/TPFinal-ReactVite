@@ -21,17 +21,19 @@ function App() {
   return (
     <>
       <div>
-        <Header/>
+        
         <Principal/>
+        <Header/>
         <About/>
         <Cuadros/> 
         <Dibujos/>
         <Work/>
         <DibujoYTitulo/>
         <Redes/>
+        
 
         <Formulario/>
-        
+        <Redes/>
         
         <Footer/>
        
