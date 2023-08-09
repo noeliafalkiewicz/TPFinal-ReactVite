@@ -110,7 +110,7 @@
 }
 @media (min-width:320px) and (max-width:480px){
   .container{
-    width:23rem;
+    width:90%;
     height:35rem; 
   }
 }
