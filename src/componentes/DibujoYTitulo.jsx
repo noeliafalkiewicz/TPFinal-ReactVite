@@ -6,8 +6,8 @@ function DibujoYTitulo () {
     return (
 
         <div>
-          <img className='rama'  src={rama}/>
-          <h4 className='titulo'>Nos contactemos</h4>
+          <img className='Rama'  src={rama}/>
+          <h4 className='Titulo'>Nos contactemos</h4>
 
         </div>
     )

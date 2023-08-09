@@ -9,29 +9,25 @@ function Formulario (){
     
 
     return(
-      <div id='contacto' className='row my-5 justify-content-md-center'>
-         <div className='formulario shadow-sm p-1 mb-3 bg-body-tertiary rounded col-md-5'>
-            <form className='contenidoformulario' action="https://formspree.io/f/mdorkgov"
+      <div id='contacto' className='Row my-5 justify-content-md-center'>
+         <div className='Formulario shadow-sm p-1 mb-3 bg-body-tertiary rounded col-md-5'>
+            <form className='Contenidoformulario' action="https://formspree.io/f/mdorkgov"
   method="POST">
-                <div className='form-group'>
-                    <label></label>
-                    <input className='border border-primary-subtle rounded-3' type='text' placeholder='Nombre/Compañia' name='nombre'/>
+                <div className='Form-group'>
+                    <input className='Border border-primary-subtle rounded-3' type='text' placeholder='Nombre/Compañia' name='nombre' autoComplete='given-name'/>
                 </div>
-                <div className='form-group'>
-                    <label></label>
-                    <input className='border border-primary-subtle rounded-3' type='email' placeholder='Email' name='email'/>
+                <div className='Form-group'>
+                    <input className='Border border-primary-subtle rounded-3' type='email' placeholder='Email' name='email' autoComplete='off'/>
                 </div>
-                <div className='form-group'>
-                    <label></label>
-                    <label htmlFor="nombre"></label>
-                    <textarea className='texto border border-primary-subtle rounded-3' type='text' placeholder='Deja tu mensaje...' name='mensaje'/>
+                <div className='Form-group'>
+                    <textarea className='Texto border border-primary-subtle rounded-3' type='text' placeholder='Deja tu mensaje...' name='mensaje' autoComplete='given-text'/>
                 </div>
 
-                <img className='mancharosaformulario' src={mancharosaformulario}/>
+                <img className='Mancharosaformulario' src={mancharosaformulario}/>
 
-                <button type='submit' class="boton btn btn-warning" ><strong>Enviar mensaje</strong> </button>
+                <button type='submit' className="Boton btn btn-warning" ><strong>Enviar mensaje</strong> </button>
 
-                <p className='comentario'>Te respondere dentro de las 24 hs</p>
+                <p className='Comentario'>Te respondere dentro de las 24 hs</p>
             </form>
             <a href='mailto:noeliafalkiewicz@gmail.com'></a>
          </div>

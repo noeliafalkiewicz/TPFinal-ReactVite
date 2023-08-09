@@ -1,5 +1,5 @@
 
-.formulario{
+.Formulario{
     width: 50rem;
     height: 55rem;
     margin-left: 39rem;
@@ -11,7 +11,7 @@
     
 }
 
-.mancharosaformulario{
+.Mancharosaformulario{
     width: 20rem;
     margin-left: -8rem;
     margin-top: -9rem;
@@ -19,19 +19,19 @@
 }
 
 
-.form-group{
+.Form-group{
     display: flex;
     justify-content: center;
 
 }
 
-.boton{
+.Boton{
     margin-left: 14.1rem;
     margin-top: -0.5rem;
     margin-bottom: 2rem;
 }
 
-.comentario{
+.Comentario{
     font-size: 2rem;
 }
 
@@ -45,7 +45,7 @@ input{
      
 }
 
-.texto{
+.Texto{
     height: 20rem;
     width: 30rem;
     font-size: 1.2rem;

@@ -1,21 +1,50 @@
 
-.imagenes{
+
+
+.Imagenes{
     
     overflow: hidden;
     width: 100rem;
+    height: 20rem;
     margin-left: -5rem;
 
 }
+@media (max-widht:992px){
+   .Imagenes{
+     height: 25rem;
+} 
+   }
+   
 
-.pajarorosa{
+.Pajarorosa{
    width: 11rem;
    margin-left: 82rem;
    margin-top: -10rem;
 }
 
-.manchaazul{
+@media (min-width:575px) and (max-width:992px){
+   .Pajarorosa{
+      width: 8rem;
+      margin-left: 50rem;
+      margin-top: 10rem;  
+   }
+}
+
+@media (min-width:320px) and (max-width:576px){
+   .Pajarorosa{
+      width: 8rem;
+      margin-left: 35rem;
+      margin-top: 10rem;  
+   }
+}
+
+.Manchaazul{
    width: 20rem;
    margin-left: 85rem;
    margin-top: 1rem;
-
+}
+@media (max-width:992px){
+   .Manchaazul{
+      display: none;
+   }
 }

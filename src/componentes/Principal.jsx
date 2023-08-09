@@ -8,19 +8,19 @@ function Principal () {
 
     return(
         
-            <div class="uno border border-white alert alert-primary shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+            <div className="container border border-white alert alert-primary shadow-lg p-3 mb-5 bg-body-tertiary rounded">
                 
-                 <div className='contenedorPrincipal'>
-                     <div className='contenedorSecundario'>
-                          <h1 className='hola'>
+                 <div className='ContenedorPrincipal'>
+                     <div className='ContenedorSecundario'>
+                          <h1 className='Hola'>
                                Hola <br/>
                                Soy Nhoelya
                           </h1>
-                          <h3 className='noe'>Desarrolladora Web
+                          <h3 className='Noe'>Desarrolladora Web
                           </h3><a></a>
-                          <button class="btn btn-warning" href='#contacto'  ><strong>Contratar</strong></button>
+                          <button className="btn btn-warning" href='#contacto'  ><strong>Contratar</strong></button>
                       </div>
-                      <img src={mancha} className='manchaGrande' alt="mancha"/>   
+                      <img src={mancha} className='ManchaGrande' alt="mancha"/>   
                  </div>
             </div>
 

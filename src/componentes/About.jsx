@@ -7,14 +7,14 @@ import pajaroazul from '../../public/pajaroazul.png'
 function About () {
 
     return (
-        <div className='encabezado' id='encabezado'>
-           <box className='dibujos'>
-              <img className='manchaRosa' src={mancharosa}/>
-              <img className='pajaroAzul' src={pajaroazul}/>
-           </box>  
+        <div className='Encabezado' id='encabezado'>
+           <section className='Dibujos'>
+              <img className='ManchaRosa' src={mancharosa}/>
+              <img className='PajaroAzul' src={pajaroazul}/>
+           </section>  
 
           <div className='About'>
-              <h4 className='titulo'>Acerca de mi</h4>
+              <h4 className='Titulo'>Acerca de mi</h4>
               <p>
                   Un desarrollador web materializa en formato virtual  esas <br/> ideas  que  estan dando vueltas en la  cabeza<br/> de alguien
               </p>

@@ -6,10 +6,10 @@ function Dibujos () {
 
     return (
          
-        <div className='imagenes'>
+        <div className='Imagenes'>
             
-            <img className='manchaazul' src={manchaazul}/>
-            <img className='pajarorosa' src={pajarorosa}/>
+            <img className='Manchaazul' src={manchaazul}/>
+            <img className='Pajarorosa' src={pajarorosa}/>
         </div>
 
     )

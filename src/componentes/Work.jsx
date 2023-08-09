@@ -8,21 +8,21 @@ function Work () {
     return (
 
         <div>
-            <h4 className='titulo' id='trabajos'>Mis trabajos</h4>
+            <h4 className='Titulo' id='trabajos'>Mis trabajos</h4>
             <p>
                 ¡Mira algunos de los proyectos en los que he estado trabajando!
             </p>
             <section>
-                <section className='cajas'>
-                   <div className='caja1'>
-                    <img className='tp1' src={tp1}/>
+                <section className='Cajas'>
+                   <div className='Caja1'>
+                    <img className='Tp1' src={tp1}/>
                    </div>
-                   <div className='caja2'>
-                    <img className='tp2' src={tp2} />
+                   <div className='Caja2'>
+                    <img className='Tp2' src={tp2} />
                    </div> 
                 </section>
-                <div className='caja3'>
-                    <img className='tp3' src={tp3} />
+                <div className='Caja3'>
+                    <img className='Tp3' src={tp3} />
                 </div>
             </section>
 
