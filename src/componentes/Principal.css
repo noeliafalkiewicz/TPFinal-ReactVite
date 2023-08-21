@@ -1,150 +1,107 @@
-.ManchaGrande {
-    display: none;
+
+.ManchaGrande{
+    height: 25rem;
+    width: 25rem;
+    padding-right: 0.5rem;
+    margin-top: 12rem;   
+}
+@media (min-width:769px) and (max-width:1279px){
+  .ManchaGrande{
+    width:8rem; 
+    height: 8rem;
+    margin-left: -4rem;
+    margin-top: 1rem;
   }
-  @media (min-width: 991.98px) {
-    .ManchaGrande {
-      display: inline;
-    }
+}
+@media (min-width:481px) and (max-width:768px){
+  .ManchaGrande{
+    width:7rem; 
+    height: 7rem;
+    margin-left: -1rem;
+    margin-top: 0.5rem;
+  }
+}
+@media (min-width:320px) and (max-width:480px){
+  .ManchaGrande{
+    width:7rem; 
+    height: 7rem;
+    margin-left: -6rem;
+    margin-top: 0.5rem;
+  }
 }
 
-.Hola {
-    font-size: 15px;
-    display: flex;
-    justify-content: center;
-    color: #a2b2c4;
-  }
-  @media (min-width: 319.98px) {
-    .Hola {
-      font-size: 20px;
-      
-    }
-}
-
-.Hola{
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-    margin-left: 0;
-    color: #a2b2c4;
-  }
-  @media (min-width: 575.98px) {
-    .Hola{
-      font-size: 60px;
-      color: #a2b2c4;
-    }
-}
+/*------------------------------------------------*/
 
 .Hola{
-    font-size: 60px;
-    display: flex;
-    justify-content: center;
-    color: #a2b2c4;
-    margin-left: 0;
-  }
-  @media (min-width: 991.98px) {
-    .Hola{
       font-size: 90px;
       margin-left: 60px;
       color: #a2b2c4;
-      padding-top: 40px;
+      padding-top: 50px;
+}
+
+@media (min-width:769px) and (max-width:1279px){
+    .Hola{
+      font-size: 28px;
+      margin-left: -1.8rem;
+      padding-top: 1.5rem;
+    }
+}
+@media (min-width:481px) and (max-width:768px){
+    .Hola{
+      font-size: 23px;
+      margin-left: -1.4rem;
+      padding-top: 1.3rem;
+    }
+}
+@media (min-width:320px) and (max-width:480px){
+    .Hola{
+      font-size: 23px;
+      margin-left: 4rem;
+      padding-top: 1.3rem;
+      width: 10rem;
     }
 }
 
   
-.Noe{
-    font-size: 10px;
-    display: flex;
-    justify-content: center;
-    margin-left: 0;
-    color: #a2b2c4;
-  }
-  @media (min-width: 575.98px) { 
-    .Noe{
-      font-size: 30px;
-    }
-  }
+
+ /*----------------------------------------------*/ 
 
   .Noe{
-    font-size: 30px;
+    font-size: 3rem;
     display: flex;
     justify-content: center;
-    margin-left: 0;
-  }
-  @media (min-width: 991.98px) { 
-    .Noe{
-      font-size: 45px;
-      margin-left: 170px;
-      color: #a2b2c4;
-    }
-  }
-
-.btn{
-    display: flex;
-    justify-content: center; 
-
+    margin-left: 9rem;
+    color: #a2b2c4;
 }
-@media (min-width: 991.98px) {
-    .btn {
-      margin-left: 350px;
-    }
-}
- 
-.container{
-    margin: 2.5% 0% 6% 6%;
-    margin-top: 2rem;
-    width:90rem ;
-    height: 40rem;   
-}
-
+  
 @media (min-width:769px) and (max-width:1279px){
-  .container{
-    width:25rem; 
-    height: 16rem;
-  }
+    .Noe{
+      font-size: 0.8rem;
+      margin-left: -3.7rem; 
+      margin-bottom: 1rem; 
+      margin-top: -0.5rem;
+    }
 }
 @media (min-width:481px) and (max-width:768px){
-  .container{
-    width:27rem ; 
-    height: 40rem;
-  }
+    .Noe{
+      font-size: 0.8rem;
+      margin-left: -3.5rem; 
+      margin-bottom: 1rem; 
+      margin-top: -0.5rem;
+    }
 }
 @media (min-width:320px) and (max-width:480px){
-  .container{
-    width:90%;
-    height:35rem; 
-  }
+    .Noe{
+      font-size: 0.8rem;
+      margin-left: -3rem; 
+      margin-bottom: 1rem; 
+      margin-top: -0.5rem;
+    }
 }
 
 
 
-body{
-  background-color: aqua;
-}
-
-.ContenedorSecundario{
-     padding-top: 0.5rem;
-}
-@media (min-width:318.98px) {
-  .ContenedorSecundario {
-    padding-top: 4rem;
-  }
-}
-
-
-
-.ContenedorPrincipal{
-    display: flex;
-    justify-content: space-around;
-    margin-top: -70px;
-
-    
-}
-.ContenedorSecundario{
-    margin-left: -3rem;
-    margin-top: 10rem;
-    
-}
-
+/*--------------------------------------------------*/
 
 .btn{
     color: white;
@@ -152,22 +109,143 @@ body{
     font-size: 35px;
     padding: 5px 35px;
     margin-left: 350px;
-
+    display: flex;
+    justify-content: center;
 }
-
 .btn:hover{
     color: rgb(182, 153, 5);
     background-color: white ;
 }
 
+@media (min-width:769px) and (max-width:1279px){
+  .btn{
+    font-size: 10px;
+    margin-top: -2rem;
+    margin-left: 1rem;
+    
+  }
+}
+@media (min-width:481px) and (max-width:768px){
+  .btn{
+    font-size: 5px;
+    margin-top: -3rem;
+    margin-left: 1rem;
+  }
+}
+@media (min-width:320px) and (max-width:480px){
+  .btn{
+    font-size: 9px;
+    margin-top: -3rem;
+    margin-left: 5.3rem;
+  }
+}
 
 
+/*------------------------------------------*/
+.container{
+    margin: 2.5% 6% 6% 6%;
+    margin-top: 2rem;
+    width:100%;
+    height: 38rem;   
+}
+
+@media (min-width:769px) and (max-width:1279px){
+  .container{
+    margin:2% 1.5%;
+    width:22rem; 
+    height: 13rem;
+  }
+}
+@media (min-width:481px) and (max-width:768px){
+  .container{
+    margin:2% 1.5%;
+    width:22rem; 
+    height: 13rem;
+  }
+}
+@media (min-width:320px) and (max-width:480px){
+  .container{
+    margin:2% 2.5%;
+    width:22rem; 
+    height: 13rem;
+  }
+}
 
 
-.ManchaGrande{
-    height: 25rem;
-    width: 25rem;
-    padding-right: 0.5rem;
-    margin-top: 12rem;
+/*---------------------------------------------------------*/
+body{
+  background-color: #e3e8ed;
+}
+
+
+.ContenedorSecundario{
+    margin-left: -3rem;
+    margin-top: 10rem;
     
 }
+@media (min-width:769px) and (max-width:1279px){
+  .ContenedorSecundario{
+    width: 35rem;
+    height: 10rem;
+    margin-left: 5rem;
+    margin-top: 0rem;
+  }
+}
+@media (min-width:481px) and (max-width:768px){
+  .ContenedorSecundario{
+    width: 35rem;
+    height: 10rem;
+    margin-left: 5rem;
+    margin-top: 0rem;
+  }
+}
+@media (min-width:320px) and (max-width:480px){
+  .ContenedorSecundario{
+    width: 21rem;
+    height: 10rem;
+    margin-left: 1rem;
+    margin-top: 0rem;
+    
+  }
+}
+
+/*---------------------------------------------*/
+
+.ContenedorPrincipal{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -70px;    
+}
+@media (min-width:769px) and (max-width:1279px){
+  .ContenedorPrincipal{
+    width:22rem; 
+    height: 9rem;
+    margin-top: 2rem;
+    margin-left: -1rem;
+  }
+}
+@media (min-width:481px) and (max-width:768px){
+  .ContenedorPrincipal{
+    width:22rem; 
+    height: 9rem;
+    margin-top: 3rem;
+    margin-left: -2rem;
+  }
+}
+@media (min-width:320px) and (max-width:480px){
+  .ContenedorPrincipal{
+    width:22rem; 
+    height: 9rem;
+    margin-top: 3rem;
+    margin-left: -2rem;
+  }
+}
+
+
+
+
+
+
+
+
+
