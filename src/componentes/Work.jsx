@@ -7,7 +7,7 @@ function Work () {
 
     return (
 
-        <div>
+        <div className='work'>
             <h4 className='Titulo' id='trabajos'>Mis trabajos</h4>
             <p>
                 ¡Mira algunos de los proyectos en los que he estado trabajando!

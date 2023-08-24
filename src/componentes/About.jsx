@@ -16,7 +16,9 @@ function About () {
           <div className='About'>
               <h4 className='Titulo'>Acerca de mi</h4>
               <p>
-                  Un desarrollador web materializa en formato virtual  esas <br/> ideas  que  estan dando vueltas en la  cabeza<br/> de alguien
+                  Un desarrollador web materializa en formato virtual  esas 
+                  <br/> ideas  que  estan dando vueltas en la  cabeza
+                  <br/> de alguien
               </p>
 
           </div>

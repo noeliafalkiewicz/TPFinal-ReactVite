@@ -1,23 +1,91 @@
 
-
 .Contenedores{
       display: flex;
       justify-content: space-evenly;
       margin-top: 2rem;
       
 }
+@media (min-width:769px) and (max-width:1279px){
+    .Contenedores{
+      margin-top: -15rem;
+      justify-content: start;
+    }
+  }
+  @media (min-width:481px) and (max-width:768px){
+    .Contenedores{
+        margin-top: -6rem;
+        justify-content: start;
+    }
+  }
+  @media (min-width:320px) and (max-width:480px){
+    .Contenedores{
+        margin-top: -6rem;
+        justify-content: start;
+    }
+  }
 
 .Contenedor{
     width: 15rem;
     height: 15rem;  
+}
+@media (min-width:769px) and (max-width:1279px){
+    .Contenedor{
+      width: 7rem;
+      height: 7rem;
+      margin-left: 0.5rem;
+      
+    }
   }
+  @media (min-width:481px) and (max-width:768px){
+    .Contenedor{
+        width: 7rem;
+        height: 7rem;
+        margin-left: 0.5rem;
+        
+    }
+  }
+  @media (min-width:320px) and (max-width:480px){
+    .Contenedor{
+        width: 7rem;
+        height: 7rem;
+        margin-left: 0.5rem;
+        
+    }
+  }
+
 .Contenedor:hover{
     transform: scale(1.1);
 }
+
 .Figura{
     margin-top: 13%;
     margin-left: 20%;
 }
+@media (min-width:769px) and (max-width:1279px){
+    .Figura{
+      width: 4rem;
+      height: 4rem;
+      margin-top: -0.05rem;
+      margin-left: 10px;
+    }
+  }
+  @media (min-width:481px) and (max-width:768px){
+    .Figura{
+        width: 4rem;
+        height: 4rem;
+        margin-top: -0.05rem;
+        margin-left: 10px;
+    }
+  }
+  @media (min-width:320px) and (max-width:480px){
+    .Figura{
+        width: 4rem;
+        height: 4rem;
+        margin-top: -0.05rem;
+        margin-left: 10px;
+    }
+  }
+
 
 h6{
     font-size: 2rem;
@@ -25,3 +93,22 @@ h6{
     justify-content: center;
     color: #a2b2c4;
 }
+@media (min-width:769px) and (max-width:1279px){
+    h6{
+      font-size:1rem;
+      margin-left: 0rem;
+    }
+  }
+  @media (min-width:481px) and (max-width:768px){
+    h6{
+        font-size:1rem;
+        margin-left: 0rem;
+      }
+   }
+  
+  @media (min-width:320px) and (max-width:480px){
+    h6{
+      font-size:1rem ;
+      margin-left:0rem;
+    }
+  }
