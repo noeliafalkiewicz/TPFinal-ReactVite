@@ -24,7 +24,7 @@
  
 
 .Tp1{
-    width: 38rem;
+    width: 35rem;
     margin-left: -3rem;
     margin-top: 2rem;
     
@@ -148,7 +148,7 @@
 
   .Caja1{
    width: 25rem;
-   height: 25rem;
+   height: 22rem;
    display: flex;
 }
 @media (min-width:769px) and (max-width:1279px){
@@ -168,8 +168,8 @@
  }
 
  .Caja2{
-   height: 20rem;
-   width: 25rem;
+   height: 18rem;
+   width: 23rem;
 }
 @media (min-width:769px) and (max-width:1279px){
    .Caja2{
@@ -193,6 +193,7 @@
  .Caja3{
    width: 25rem;
    height: 25rem;
+   margin-top: 2rem;
 }
 @media (min-width:769px) and (max-width:1279px){
    .Caja3{
