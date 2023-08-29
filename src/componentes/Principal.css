@@ -143,9 +143,9 @@
 
 /*------------------------------------------*/
 .container{
-    margin: 2.5% 6% 6% 6%;
+    margin-left: 8rem;
     margin-top: 2rem;
-    width:100%;
+    width:130vw;
     height: 38rem;   
 }
 

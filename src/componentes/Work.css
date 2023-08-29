@@ -8,154 +8,214 @@
        width: 20rem;
        margin-left: 4rem;
   }
+  }
   @media (min-width:481px) and (max-width:768px){
-    .Manchaazul{
-       width: 6rem;
-       margin-left: 24rem;
-       margin-top: 1rem;
+    .work{
+      width: 20rem;
+      margin-left: 4rem;
     }
   }
   @media (min-width:320px) and (max-width:480px){
-    .Manchaazul{
-       width: 6rem;
-       margin-left: 24rem;
-       margin-top: 1rem; 
+    .work{
+      width: 20rem;
+      margin-left: 4rem;
     }
   }
  
 
-  @media (min-width:769px) and (max-width:1279px){
-    .Manchaazul{
-       width: 6rem;
-       margin-left: 24rem;
-       margin-top: 1rem;
-    }
-  }
-  @media (min-width:481px) and (max-width:768px){
-    .Manchaazul{
-       width: 6rem;
-       margin-left: 24rem;
-       margin-top: 1rem;
-    }
-  }
-  @media (min-width:320px) and (max-width:480px){
-    .Manchaazul{
-       width: 6rem;
-       margin-left: 24rem;
-       margin-top: 1rem; 
-    }
-  }
- */
-
-
 .Tp1{
-    width: 40rem;
-    margin-left: 10rem;
-    margin-bottom: 3rem;
+    width: 38rem;
+    margin-left: -3rem;
+    margin-top: 2rem;
     
 }
 @media (min-width:769px) and (max-width:1279px){
-    .Manchaazul{
-       width: 6rem;
-       margin-left: 24rem;
-       margin-top: 1rem;
+    .Tp1{
+       width: 21rem;
+       height: 10rem;
+       margin-left: -1rem;
+      
     }
   }
   @media (min-width:481px) and (max-width:768px){
-    .Manchaazul{
-       width: 6rem;
-       margin-left: 24rem;
-       margin-top: 1rem;
+    .Tp1{
+      width: 21rem;
+      height: 10rem;
+      margin-left: -1rem
     }
   }
   @media (min-width:320px) and (max-width:480px){
-    .Manchaazul{
-       width: 6rem;
-       margin-left: 24rem;
-       margin-top: 1rem; 
+    .Tp1{
+      width: 21rem;
+      height: 10rem;
+      margin-left: -1rem
     }
   }
  
 
 .Tp2{
-    width: 30rem; 
-    margin-left: -9rem; 
-    margin-top: 2rem;
+    width: 40rem; 
+    height: 25rem;
+    margin-left: -5rem; 
+    margin-top: 0rem;
 }
 @media (min-width:769px) and (max-width:1279px){
-    .Manchaazul{
-       width: 6rem;
-       margin-left: 24rem;
-       margin-top: 1rem;
+    .Tp2{
+      width: 21rem;
+      height: 10rem;
+      margin-left: -1rem;
+      margin-top: 0rem;
     }
   }
   @media (min-width:481px) and (max-width:768px){
-    .Manchaazul{
-       width: 6rem;
-       margin-left: 24rem;
-       margin-top: 1rem;
+    .Tp2{
+      width: 21rem;
+      height: 10rem;
+      margin-left: -1rem;
+      margin-top: 2rem;
     }
   }
   @media (min-width:320px) and (max-width:480px){
-    .Manchaazul{
-       width: 6rem;
-       margin-left: 24rem;
-       margin-top: 1rem; 
+    .Tp2{
+      width: 21rem;
+      height: 10rem;
+      margin-left: -1rem;
+      margin-top: 0rem;
     }
   }
  
 
 .Tp3{
     width: 40rem;
-    margin-left: 30rem;  
+    margin-left: 30rem; 
+    margin-top: 3rem; 
 }
 @media (min-width:769px) and (max-width:1279px){
-    .Manchaazul{
-       width: 6rem;
-       margin-left: 24rem;
-       margin-top: 1rem;
+    .Tp3{
+      width: 21rem;
+      height: 10rem;
+      margin-left: 0rem;
+      margin-top: 0rem;
     }
   }
   @media (min-width:481px) and (max-width:768px){
-    .Manchaazul{
-       width: 6rem;
-       margin-left: 24rem;
-       margin-top: 1rem;
+    .Tp3{
+      width: 21rem;
+      height: 10rem;
+      margin-left: 0rem;
+      margin-top: 0rem;
     }
   }
   @media (min-width:320px) and (max-width:480px){
-    .Manchaazul{
-       width: 6rem;
-       margin-left: 24rem;
-       margin-top: 1rem; 
+    .Tp3{
+      width: 21rem;
+      height: 10rem;
+      margin-left: 0rem;
+      margin-top: 0rem;
     }
   }
  
-
 
 .Cajas{
     display: flex;
     justify-content: space-evenly;
 }
 @media (min-width:769px) and (max-width:1279px){
-    .Manchaazul{
-       width: 6rem;
-       margin-left: 24rem;
-       margin-top: 1rem;
+    .Cajas{
+       width: 17rem;
+       height: 50rem;
+       margin-top: -2rem;  
+       flex-wrap: wrap;
     }
   }
   @media (min-width:481px) and (max-width:768px){
-    .Manchaazul{
-       width: 6rem;
-       margin-left: 24rem;
-       margin-top: 1rem;
+    .Cajas{
+      width: 17rem;
+      height: 50rem;
+      margin-top: -2rem;  
+      flex-wrap: wrap;
     }
   }
   @media (min-width:320px) and (max-width:480px){
-    .Manchaazul{
-       width: 6rem;
-       margin-left: 24rem;
-       margin-top: 1rem; 
+    .Cajas{
+      width: 17rem;
+      height: 50rem;
+      margin-top: -2rem;  
+      flex-wrap: wrap;
     }
   }
+
+
+  .Caja1{
+   width: 25rem;
+   height: 25rem;
+   display: flex;
+}
+@media (min-width:769px) and (max-width:1279px){
+   .Caja1{
+      height: 10rem;
+   }
+ }
+ @media (min-width:481px) and (max-width:768px){
+   .Caja1{
+      height: 10rem;
+   }
+ }
+ @media (min-width:320px) and (max-width:480px){
+   .Caja1{
+      height: 10rem;
+   }
+ }
+
+ .Caja2{
+   height: 20rem;
+   width: 25rem;
+}
+@media (min-width:769px) and (max-width:1279px){
+   .Caja2{
+      height: 10rem;
+      margin-top: -17rem;
+   }
+ }
+ @media (min-width:481px) and (max-width:768px){
+   .Caja2{
+      height: 10rem;
+      margin-top: -19rem;
+   }
+ }
+ @media (min-width:320px) and (max-width:480px){
+   .Caja2{
+      height: 10rem;
+      margin-top: -17rem;
+   }
+ }
+
+ .Caja3{
+   width: 25rem;
+   height: 25rem;
+}
+@media (min-width:769px) and (max-width:1279px){
+   .Caja3{
+      height: 10rem;
+      width: 21rem;
+      margin-top: -26rem;
+      margin-left: -2.5rem;  
+   }
+ }
+ @media (min-width:481px) and (max-width:768px){
+   .Caja3{
+      height: 10rem;
+      width: 21rem;
+      margin-top: -26rem;
+      margin-left: -2.5rem;
+   }
+ }
+ @media (min-width:320px) and (max-width:480px){
+   .Caja3{
+      height: 10rem;
+      width: 21rem;
+      margin-top: -26rem;
+      margin-left: -2.5rem;
+   }
+ }
  

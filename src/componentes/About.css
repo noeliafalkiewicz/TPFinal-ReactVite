@@ -35,19 +35,19 @@
 @media (min-width:769px) and (max-width:1279px){
   .Dibujos{
     width: 10rem;
-    height: 10rem;
+    height: 7.5rem;
   }
 }
 @media (min-width:481px) and (max-width:768px){
   .Dibujos{
     width: 10rem;
-    height: 10rem;
+    height: 7.5rem;
   }
 }
 @media (min-width:320px) and (max-width:480px){
   .Dibujos{
     width: 10rem;
-    height: 10rem;
+    height: 8rem;
   }
 }
 /*-------------------------------------------------*/
@@ -190,18 +190,21 @@ p{
   .Titulo{
     font-size:2rem ;
     margin-left: -5rem;
+    margin-top: 3rem;
   }
 }
 @media (min-width:481px) and (max-width:768px){
   .Titulo{
     font-size:2rem ;
     margin-left: -5rem;
+    margin-top: 3rem;
   }
 }
 @media (min-width:320px) and (max-width:480px){
   .Titulo{
-    font-size:2rem ;
-    margin-left: -5rem;
+    font-size:1.8rem ;
+    margin-left: -4rem;
+    margin-top: 3rem;
   }
 }
 
