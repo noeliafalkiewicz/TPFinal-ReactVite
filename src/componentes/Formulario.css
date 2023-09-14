@@ -1,39 +1,206 @@
+.Contacto{
+    width: 100rem;
+}
+@media (min-width:769px) and (max-width:1279px){
+    .Contacto{
+       width: 23rem;
+       margin-left: 0;
+    }
+  }
+  @media (min-width:481px) and (max-width:768px){
+    .Contacto{
+        width: 23rem;
+        margin-left: 0;
+    }
+  }
+  @media (min-width:320px) and (max-width:480px){
+    .Contacto{
+        width: 23rem;
+        margin-left: 0;
+    }
+  }
+
+
+
 
 .Formulario{
-    width: 50rem;
+    width: 55rem;
     height: 55rem;
-    margin-left: 39rem;
+    margin-left: 45rem;
     margin-right: -1rem;
     margin-top: -42rem;
     padding-top: 5rem;
-    overflow: hidden;
-   
-    
+    margin-bottom: 10rem;
+    overflow: hidden; 
+    position: absolute;  
 }
+@media (min-width:769px) and (max-width:1279px){
+    .Formulario{
+       width: 21rem; 
+       height: 32rem;
+       position: relative;
+       margin-left: 2rem;
+       margin-top: 3.5rem;
+       
+    }
+  }
+  @media (min-width:481px) and (max-width:768px){
+    .Formulario{
+        width: 21rem; 
+        height: 32rem;
+        position: relative;
+        margin-left: 2rem;
+        margin-top: 12rem;
+    }
+  }
+  @media (min-width:320px) and (max-width:480px){
+    .Formulario{
+        width: 21rem; 
+        height: 32rem;
+        position: relative;
+        margin-left: 2rem;
+        margin-top: 12rem;
+    }
+  }
+
+.Contenidoformulario{
+    margin-top: 2rem;
+}
+@media (min-width:769px) and (max-width:1279px){
+    .Contenidoformulario{
+       margin-top: 0;
+       height: 30rem;
+    }
+  }
+  @media (min-width:481px) and (max-width:768px){
+    .Contenidoformulario{
+        margin-top: 0;
+        height: 30rem;
+    }
+  }
+  @media (min-width:320px) and (max-width:480px){
+    .Contenidoformulario{
+        margin-top: 0;
+        height: 30rem;
+    }
+  }
+
 
 .Mancharosaformulario{
-    width: 20rem;
+    width: 30rem;
     margin-left: -8rem;
-    margin-top: -9rem;
+    margin-top: -15rem;
     z-index: 1;
 }
+@media (min-width:769px) and (max-width:1279px){
+    .Mancharosaformulario{
+       width: 15rem;
+       margin-top: 2rem;
+    }
+  }
+  @media (min-width:481px) and (max-width:768px){
+    .Mancharosaformulario{
+        width: 15rem;
+        margin-top: 2rem;
+    }
+  }
+  @media (min-width:320px) and (max-width:480px){
+    .Mancharosaformulario{
+        width: 15rem;
+        margin-top: 2rem;
+    }
+  }
+
 
 
 .Form-group{
     display: flex;
     justify-content: center;
-
 }
+@media (min-width:769px) and (max-width:1279px){
+    .Form-group{
+       width: 18rem;
+       height: 2.3rem;
+       margin-left: 1.2rem;
+       margin-top: 1.5rem;
+    }
+  }
+  @media (min-width:481px) and (max-width:768px){
+    .Form-group{
+        width: 18rem;
+        height: 2.3rem;
+        margin-left: 1.2rem;
+        margin-top: 1.5rem;
+    }
+  }
+  @media (min-width:320px) and (max-width:480px){
+    .Form-group{
+        width: 18rem;
+        height: 2.3rem;
+        margin-left: 1.2rem;
+        margin-top: 1.5rem;
+    }
+  }
+
+
 
 .Boton{
-    margin-left: 14.1rem;
+    margin-left: 18rem;
     margin-top: -0.5rem;
     margin-bottom: 2rem;
 }
+@media (min-width:769px) and (max-width:1279px){
+    .Boton{
+        margin-left: 5rem;
+        margin-top: -1rem;
+        margin-bottom: 2rem;
+        font-size: 1rem;
+    }
+  }
+  @media (min-width:481px) and (max-width:768px){
+    .Boton{
+        margin-left: 5rem;
+        margin-top: -1rem;
+        margin-bottom: 2rem;
+        font-size: 1rem;
+    }
+  }
+  @media (min-width:320px) and (max-width:480px){
+    .Boton{
+        margin-left: 5rem;
+        margin-top: -1rem;
+        margin-bottom: 2rem;
+        font-size: 1rem;
+    }
+  }
+
 
 .Comentario{
     font-size: 2rem;
+    margin-left: 13rem;
 }
+@media (min-width:769px) and (max-width:1279px){
+    .Comentario{
+        font-size: 1rem;
+        margin-left: 4rem;
+        margin-top: -1rem;
+    }
+  }
+  @media (min-width:481px) and (max-width:768px){
+    .Comentario{
+        font-size: 1rem;
+        margin-left: 4rem;
+        margin-top: -1rem;
+    }
+  }
+  @media (min-width:320px) and (max-width:480px){
+    .Comentario{
+        font-size: 1rem;
+        margin-left: 4rem;
+        margin-top: -1rem;
+    }
+  }
+
 
 input{
     width: 30rem;
@@ -41,9 +208,25 @@ input{
     font-size: 1.2rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    padding-left: 1rem;  
-     
+    padding-left: 1rem;      
 }
+
+@media (min-width:769px) and (max-width:1279px){
+    .input{
+       width: 15rem;
+    }
+  }
+  @media (min-width:481px) and (max-width:768px){
+    .input{
+       width: 15rem;
+    }
+  }
+  @media (min-width:320px) and (max-width:480px){
+    .input{
+       width: 15rem;
+    }
+  }
+
 
 .Texto{
     height: 20rem;
@@ -56,5 +239,29 @@ input{
     padding-left: 1rem;
     
 }
+@media (min-width:769px) and (max-width:1279px){
+    .Texto{
+         width: 20rem;
+         height: 10rem;
+         margin-top: 1.8rem;
+        
+    }
+  }
+  @media (min-width:481px) and (max-width:768px){
+    .Texto{
+        width: 20rem;
+        height: 10rem;
+        margin-top: 1.8rem;
+       
+    }
+  }
+  @media (min-width:320px) and (max-width:480px){
+    .Texto{
+        width: 20rem;
+        height: 10rem;
+        margin-top: 1.8rem;
+       
+    }
+  }
 
 

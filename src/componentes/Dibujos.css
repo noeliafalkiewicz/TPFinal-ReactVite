@@ -4,7 +4,7 @@
 .Imagenes{
     
     overflow: hidden;
-    width: 100rem;
+    width: 120rem;
     height: 20rem;
     margin-left: -5rem;
 
@@ -12,7 +12,7 @@
 @media (min-width:769px) and (max-width:1279px){
    .Imagenes{
       overflow: hidden;
-      width: 28rem;
+      width: 30rem;
       height: 6rem;
       margin-left: -5rem;
       margin-top: -2rem;
@@ -41,14 +41,14 @@
 
 .Pajarorosa{
    width: 11rem;
-   margin-left: 82rem;
+   margin-left: 92rem;
    margin-top: -10rem;
 }
 
 @media (min-width:769px) and (max-width:1279px){
    .Pajarorosa{
       width: 3.5rem;
-      margin-left: 23rem;
+      margin-left: 25rem;
       margin-top: -5rem;
    }
  }
@@ -70,13 +70,13 @@
 
 .Manchaazul{
    width: 20rem;
-   margin-left: 85rem;
+   margin-left: 93rem;
    margin-top: 1rem;
 }
 @media (min-width:769px) and (max-width:1279px){
    .Manchaazul{
       width: 6rem;
-      margin-left: 24rem;
+      margin-left: 26rem;
       margin-top: 1rem;
    }
  }

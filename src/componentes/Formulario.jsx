@@ -9,7 +9,7 @@ function Formulario (){
     
 
     return(
-      <div id='contacto' className='Row my-5 justify-content-md-center'>
+      <div id='contacto' className='Contacto Row my-5 justify-content-md-center'>
          <div className='Formulario shadow-sm p-1 mb-3 bg-body-tertiary rounded col-md-5'>
             <form className='Contenidoformulario' action="https://formspree.io/f/mdorkgov"
   method="POST">

@@ -189,7 +189,7 @@ p{
 @media (min-width:769px) and (max-width:1279px){
   .Titulo{
     font-size:2rem ;
-    margin-left: -5rem;
+    text-align: center;
     margin-top: 3rem;
   }
 }

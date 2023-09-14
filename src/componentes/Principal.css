@@ -145,7 +145,7 @@
 .container{
     margin-left: 8rem;
     margin-top: 2rem;
-    width:130vw;
+    width:140vw;
     height: 38rem;   
 }
 
@@ -173,9 +173,7 @@
 
 
 /*---------------------------------------------------------*/
-body{
-  background-color: #98ef8c;
-}
+
 
 
 .ContenedorSecundario{
